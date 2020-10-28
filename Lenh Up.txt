@@ -1,0 +1,6 @@
+git init
+git add index.html index.php composer.json ngay1.html ngay2.html test.html
+git commit -m "test so 6"
+git branch -M main
+git remote add origin https://github.com/letrongdetoan/test6.git
+git push -u origin main

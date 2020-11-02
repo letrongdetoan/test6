@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ae45ed5-801c-4b7b-9c9f-9f63aab189c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.css" beforeDir="false" afterPath="$PROJECT_DIR$/1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai1test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai1test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay1/ngay1bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay1/ngay1bai8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay2/ngay2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/ngay2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay2/ngay2vidumixselector.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/ngay2vidumixselector.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +82,7 @@
       <workItem from="1603932535173" duration="125000" />
       <workItem from="1604024489204" duration="667000" />
       <workItem from="1604279631375" duration="4223000" />
-      <workItem from="1604283903276" duration="3400000" />
+      <workItem from="1604283903276" duration="3966000" />
     </task>
     <servers />
   </component>

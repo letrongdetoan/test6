@@ -25,3 +25,22 @@ h1{
 h3 {
     color: ;
 }
+.test:hover{
+    color: #2aabd2;
+}
+test
+a:hover{
+    color: #8a6d3b;
+}
+a:active{
+    color: orange;
+}
+a:visited{
+    color: pink;
+}
+div{
+    color: white;
+    background: blue;
+}
+div:first-letter{color: }
+col

@@ -1,0 +1,40 @@
+img{
+    width: 400px;
+}
+div{
+    margin: 0px 300px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.maudonghieng{
+    color: red;
+    font-weight: inherit;
+}
+.maudobeo{
+    color: red;
+    font-weight: bold;
+}
+.nghieng{
+    font-weight: initial;
+}
+ul{
+    font-weight: lighter;
+}
+.xanhgachchan{
+    color: blue;
+    text-decoration: underline;
+}
+.maudo{
+    color: red;
+}
+.mauxanhchuoi{
+    color: #2d672d;
+    text-decoration: underline;
+}

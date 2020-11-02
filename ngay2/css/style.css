@@ -1,0 +1,20 @@
+li {
+    margin: 0px;
+    padding: 0px;
+    color: orange;
+}
+.thuoctinhclass{
+    color: red;
+}
+.thuoctinhclass li{
+    color: #2aabd2;
+}
+.thuoctinhclass li li{
+    color: blueviolet;
+}
+[title="phude"]{
+    color: yellow;
+}
+p,b{
+    color: yellow;
+}

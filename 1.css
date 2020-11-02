@@ -1,21 +1,55 @@
 *{margin: 0; padding: 0;} 
-.chieuso1{
-	animation: chieu1 1s forwards;
+.thanhxanh {
+    height: 43px;
+    background: #3b5998;
+    padding-left: 800px;
 }
-@-webkit-keyframes chieu1{
-	0%	{transform:translateX(0px) translateY(0px);}
-	50%	{transform:translateX(200px) translateY(200px);}
-	80%	{transform:translateX(500px) translateY(200px);}
-	90%	{transform:translateX(500px) translateY(500px);}
-	100%{transform:translateX(700px) translateY(500px);}
+
+._1khoi {
+    float: left;
+    position: relative;
+    perspective: 500px;
 }
-.chieuso2{
-	animation: chieu2 1s forwards;
+
+.dehienthi{
+    position:absolute;
+    width:201px;
+    font-size: 13px;
+    transition: 0.4s;
+    right: 3px;
+    opacity: 0;
+    visibility: hidden;
 }
-@-webkit-keyframes chieu2{
-	100%{transform:translateX(0px) translateY(0px);}
-	90%	{transform:translateX(200px) translateY(200px);}
-	80%	{transform:translateX(500px) translateY(200px);}
-	50%	{transform:translateX(500px) translateY(500px);}
-	0%	{transform:translateX(700px) translateY(500px);}
+
+.declick {
+    padding: 10px 16px;
+    transition: 0.4s;
+}
+
+.declick i.fa {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.dehienthi:after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border: 11px #ffd70000 solid;
+    border-bottom-color: white;
+    right: 8px;
+}
+.mautrang{
+	color: white;
+}
+.ra{
+	opacity: 1;
+	visibility: visible;
+	animation: len 0.3s forwards;
+}
+@-webkit-keyframes len{
+	from{transform: rotateY(-90deg);opacity: 0;transform-origin:100% 100%; }
+	to{transform: rotateY(0deg);opacity: 1;transform-origin:100% 100%; }
 }

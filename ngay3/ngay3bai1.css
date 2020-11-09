@@ -1,0 +1,21 @@
+.div1{
+    margin: 5% 15%;
+
+}
+._1menu{
+    color: #2aabd2;
+  }
+.div1_logo {
+    float: left;
+}
+.logo{
+      width: 30px;
+}
+.div1_menu ._1menu{
+    margin-left: 40%;
+    border-right: 2px solid black;
+}
+.div1_menu ._1menu a{
+    padding-right:10px;
+}
+div1_

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="thongtincoban">
+    <p class="chuchen">Thông tin cơ bản</p>
+    <div class="cangiua">
+        <form action="">
+            <table class="chinhtable">
+                <tr>
+                    <td>Tên tài khoản</td>
+                    <td><input type="text" name="tentaikhoan" value="" placeholder="Tài khoản đăng nhập."></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" value="" placeholder="Email của bạn."></td>
+                <tr>
+                    <td> Mật khẩu</td>
+                    <td><input type="password" name="matkhau" value="" placeholder="Mật khẩu đăng nhập."></td>
+                </tr>
+                <tr>
+                    <td>Xác nhận mật khẩu</td>
+                    <td><input type="password" name="matkhau" value="" placeholder="Mật khẩu đăng nhập."></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<div class="thongtinchitiet">
+    <p class="chuchen">Thông tin chi tiết</p>
+    <div class="cangiua">
+        <form action="">
+            <table class="chinhtable">
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input class="chinhhovaten" type="text" name="hovaten" value="" placeholder="Họ và tên."></td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td><input type="date" name="ngaysinh" value=""></td>
+                <tr>
+                    <td> Giới tính</td>
+                    <td><input type="radio" name="gioitinh" value="Nam">Nam
+                        <input type="radio" name="gioitinh" value="Nữ">Nữ</td>
+                </tr>
+                <tr>
+                    <td>Sở thích</td>
+                    <td><input type="checkbox" name="thethao"> Thể Thao
+                    <input type="checkbox" name="thethao"> Xem phim
+                    <input type="checkbox" name="thethao"> Nghe nhạc
+                    <input type="checkbox" name="thethao"> Đọc sách</td>
+                </tr>
+                <tr>
+                    <td> Ảnh đại diện</td>
+                    <td><input type="file" name="file" value="Nam"></td>
+                </tr>
+                <tr>
+                    <td> Giới thiệu bản thân</td>
+                    <td><textarea rows="4" cols="50"></textarea></td>
+                </tr>
+            </table>
+            <div class="dangkylamlai">
+            <input type="submit" name="submit" value="Đăng ký">
+            <input type="reset" name="submit" value="làm lại">
+            </div>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .item-block {
+            background-color: bisque;
+            float: left;
+            margin: 3px;
+            padding: 10px;
+            width: 23%;
+        }
+        header {
+            height: 100px;
+        }
+        footer {
+            height: 50px;
+        }
+
+        section::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+<body>
+<header>Heading</header>
+<section>
+    <div class="item-block">
+        <p>Hello Mr Tham</p>
+        <img width="200px" src="https://medias2.prestastore.com/838598-pbig/free-product-delivery-manager.jpg" alt="">
+    </div>
+    <div class="item-block">
+        <p>Hello Mr Tham</p>
+        <img width="200px" src="https://medias2.prestastore.com/838598-pbig/free-product-delivery-manager.jpg" alt="">
+    </div>
+    <div class="item-block">
+        <p>Hello Mr Tham</p>
+        <img width="200px" src="https://medias2.prestastore.com/838598-pbig/free-product-delivery-manager.jpg" alt="">
+    </div>
+    <div class="item-block">
+        <p>Hello Mr Tham</p>
+        <img width="200px" src="https://medias2.prestastore.com/838598-pbig/free-product-delivery-manager.jpg" alt="">
+    </div>
+</section>
+<footer>&copy; 2020</footer>
+</body>
+</html>

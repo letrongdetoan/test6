@@ -1,0 +1,33 @@
+.thongtincoban{
+    border: solid 2px #2aabd2;
+    width: 600px;
+    height: 150px;
+}
+.cangiua{
+    margin-left: 50px;
+    margin-top: 20px ;
+}
+.thongtinchitiet{
+    border: solid 2px #2aabd2;
+    width: 600px;
+    height: 250px;
+    margin-top: 50px;
+}
+p.chuchen {
+    position: fixed;
+    margin-top: -11px;
+    margin-left: 17px;
+    padding: 0px 3px;
+    background-color: white;
+}
+
+input.chinhhovaten {
+    width: 250px;
+}
+input, textarea {
+    margin-left: 10px;
+}
+.dangkylamlai{
+    margin-top: 50px;
+    margin-left: 70px;
+}

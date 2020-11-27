@@ -1,3 +1,6 @@
+*{margin: 0; padding: 0;}
+
+
 * {
     box-sizing: border-box;
 }
@@ -24,7 +27,7 @@
     display: table;
 }
 
-/* For mobile phones: */
+
 [class*="col-"] {
     width: 100%;
 }
@@ -42,7 +45,7 @@
     .col-s-9 {width: 75%;}
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+    .col-s-12{width: 100%;}
 }
 
 @media only screen and (min-width: 768px) {
@@ -94,4 +97,30 @@
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+.imgYoutube{
+    display: block;
+    float: left;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+.seachbtn{
+    padding: 7px;
+    margin-top: 8px;
+}
+.logo{
+    width: 30%;
+    height: 30%;
+    right: 10px;
 }

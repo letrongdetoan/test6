@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8ae45ed5-801c-4b7b-9c9f-9f63aab189c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay5/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay5/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay12/ngay12.css" beforeDir="false" afterPath="$PROJECT_DIR$/ngay12/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay12/ngay12.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay12/ngay12.js" beforeDir="false" afterPath="$PROJECT_DIR$/ngay12/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -116,7 +118,8 @@
       <workItem from="1606190071435" duration="121000" />
       <workItem from="1606272177995" duration="4504000" />
       <workItem from="1606364189074" duration="607000" />
-      <workItem from="1606439654040" duration="12648000" />
+      <workItem from="1606439654040" duration="13757000" />
+      <workItem from="1606460696815" duration="4043000" />
     </task>
     <servers />
   </component>

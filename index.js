@@ -1,6 +1,6 @@
 const YOUTUBE_API ='https://content.googleapis.com/youtube/v3/search';
 const YOUTUBE_API_KEY ='AIzaSyCdzuV9z0gIiHg82mLHr8Zbb10sF39LTDM';
-const LIMIT_VIDEO = 16;
+const LIMIT_VIDEO = 12;
 
 
 document.addEventListener('DOMContentLoaded',function (){
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function (){
                     var thuchiennoichuoi = '';
                     for (let i = 0; i < dataJson1.items.length; i++) {
                         const elements = dataJson1.items[i];
-                        thuchiennoichuoi += `<img class="col-3 imgYoutube" src="${elements.snippet.thumbnails.high.url}" alt="${elements.id.videoId}">`;
+                        thuchiennoichuoi += `<div class="col-3"> <img class="col-12 imgYoutube" src="${elements.snippet.thumbnails.high.url}" title="${elements.id.videoId}"> <div title="${elements.id.videoId}" class="col-12 imgYoutube">${elements.snippet.title}</div> </div>`;
                     }
                     contentDiv.innerHTML = thuchiennoichuoi;
                 } else {
@@ -36,9 +36,8 @@ document.addEventListener('DOMContentLoaded',function (){
 
 //lay video
     content.addEventListener('click', function (event) {
-        if (event.target.className == 'col-3 imgYoutube') {
-            showVideo.innerHTML = `id="showVideo"><iframe class="videoYoutube" width="560" height="315" src="https://www.youtube.com/embed/${event.target.alt}"
-           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        if (event.target.className == 'col-12 imgYoutube') {
+            showVideo.innerHTML = `<iframe width="560" height="315" class="videoYoutube" src="https://www.youtube.com/embed/${event.target.title}"</iframe>`;
             showVideo.style.display = 'block';
             span.style.display = 'block'
         }

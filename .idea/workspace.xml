@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8ae45ed5-801c-4b7b-9c9f-9f63aab189c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay2/css/ngay2bai1.css" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/css/ngay2bai1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay5/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay5/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ngay4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ngay10" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -57,6 +58,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Voisumma\WebstormProjects\test6\ngay10" />
+      <recent name="C:\Users\Voisumma\WebstormProjects\test6\ngay9" />
+      <recent name="C:\Users\Voisumma\WebstormProjects\test6\ngay8" />
       <recent name="C:\Users\Voisumma\WebstormProjects\test6\ngay4" />
       <recent name="C:\Users\Voisumma\WebstormProjects\test6\ngay1" />
     </key>
@@ -95,7 +99,24 @@
       <workItem from="1604647080757" duration="1160000" />
       <workItem from="1604648304505" duration="20000" />
       <workItem from="1604887810793" duration="2134000" />
-      <workItem from="1604891075559" duration="5916000" />
+      <workItem from="1604891075559" duration="6789000" />
+      <workItem from="1605057015770" duration="371000" />
+      <workItem from="1605060730853" duration="136000" />
+      <workItem from="1605065476184" duration="5110000" />
+      <workItem from="1605077836370" duration="18000" />
+      <workItem from="1605234186435" duration="2689000" />
+      <workItem from="1605237443816" duration="55000" />
+      <workItem from="1605491121868" duration="7890000" />
+      <workItem from="1605667499633" duration="8396000" />
+      <workItem from="1605684891544" duration="1939000" />
+      <workItem from="1605694084712" duration="719000" />
+      <workItem from="1605694920219" duration="1607000" />
+      <workItem from="1606094969662" duration="3861000" />
+      <workItem from="1606098892721" duration="5983000" />
+      <workItem from="1606190071435" duration="121000" />
+      <workItem from="1606272177995" duration="4504000" />
+      <workItem from="1606364189074" duration="607000" />
+      <workItem from="1606439654040" duration="12648000" />
     </task>
     <servers />
   </component>
@@ -115,21 +136,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604647183263">
+    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605695934866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1604647183263" />
+    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1605695934866" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603860741459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603860741459" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604283850453">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605500487466">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604283850453" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605500487466" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1604647095231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604647095231" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ngay9/ngay91.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

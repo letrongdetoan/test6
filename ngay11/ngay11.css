@@ -1,0 +1,38 @@
+#image {
+    position: fixed;
+    height: 200px;
+    z-index: 2;
+    cursor: pointer;
+}
+#contentDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+    display: none;
+}
+#imgDiv{
+    width:  50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 12.5%;
+}
+#close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}

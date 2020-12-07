@@ -49,4 +49,19 @@ document.addEventListener('DOMContentLoaded',function (){
         span.style.display = "none";
     }
 })
-
+var layCodeve = new XMLHttpRequest();
+layCodeve.onreadystatechange = function () {
+    if (this.readyState == 4) {
+        if (this.status == 200) {
+            var dataJson1 = JSON.parse(layCodeve.responseText);
+            var thuchiennoichuoi = '';
+            for (let i = 0; i < dataJson1.items.length; i++) {
+                const elements = dataJson1.items[i];
+                thuchiennoichuoi += `<div class="col-3"> <img class="col-12 imgYoutube" src="${elements.snippet.thumbnails.high.url}" title="${elements.id.videoId}"> <div title="${elements.id.videoId}" class="col-12 imgYoutube">${elements.snippet.title}</div> </div>`;
+            }
+            contentDiv.innerHTML = thuchiennoichuoi;
+        } else {
+            contentDiv.innerHTML = 'Da co loi trong qua trinh xu ly';
+        }
+    }
+}

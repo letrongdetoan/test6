@@ -1,11 +1,7 @@
 var API_DOMAIN = 'https://2-dot-backup-server-002.appspot.com';
 var REGEISTER_API_URL = '/_api/v2/members/authentication';
 var token = localStorage.getItem('song_i_like_token');
-if (token){
-    alert(token);
-}else {
-    alert('chua dang nhap he thong');
-}
+
 
 document.addEventListener('DOMContentLoaded', function () {
     var btnSubmit = document.forms['login-form']['btnSubmit'];
